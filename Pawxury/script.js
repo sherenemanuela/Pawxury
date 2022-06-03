@@ -493,9 +493,9 @@ function showDetailPesanan(idx){
                 <img src="${order[i].image}" class="detail-img" alt="">
                 <div class="rincian">
                     <h7>${order[i].name}</h7>
-                    <p>${order[i].price}</p>
+                    <p>${formatPrice(order[i].price)}</p>
                 </div>
-                <p>${order[i].amount} x ${order[i].price}</p>
+                <p>${order[i].amount} x ${formatPrice(order[i].price)}</p>
             </div>
         `
         isi.append(div);
@@ -512,9 +512,9 @@ function showDetailPesanan(idx){
         <div class="pembayaran-detail">
             <h5>Detail Pembayaran</h5>
             <p>Metode Pembayaran : ${orders[idx].payment}</p>
-            <p>Total Harga : ${getTotalHarga(order)}</p>
-            <p>Ongkos Kirim : ${orders[idx].ongkir}</p>
-            <p>Total Pembelian : ${orders[idx].ongkir + getTotalHarga(order)}</p>
+            <p>Total Harga : ${formatPrice(getTotalHarga(order))}</p>
+            <p>Ongkos Kirim : ${formatPrice(orders[idx].ongkir)}</p>
+            <p>Total Pembelian : ${formatPrice(orders[idx].ongkir + getTotalHarga(order))}</p>
         </div>
     `
     isi.append(div);

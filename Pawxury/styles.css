@@ -43,6 +43,10 @@ img {
 }
 
 .fa-window-close {
+    color: white;
+}
+
+.cart .fa-window-close {
     color: #BF9270;
 }
 
