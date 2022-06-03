@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawxury - Beranda</title>
+    <link rel="icon" href="Asset/title_icon.png">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/d160506068.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <!-- Hamburger -->
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <!-- Logo -->
+        <div id="navbar-img" class="navbar-side-container">
+            <a href="beranda.html">
+                <img src="Asset/pawxury_logo.png" alt="Pawxury Logo">
+            </a>
+        </div>
+
+        <!-- Links -->
+        <ul id="nav-links">
+            <li class="nav-text">
+                <a href="beranda.html">Beranda</a>
+            </li>
+            <li class="nav-text">
+                <a href="dokter-hewan.html">Dokter Hewan</a>
+            </li>
+            <li class="nav-text">
+                <a href="services-category.html">Layanan</a>
+            </li>
+            <li class="nav-text">
+                <a href="contact.html">Kontak</a>
+            </li>
+            <li class="nav-text">
+                <a href="faq.html">FAQ</a>
+            </li>
+        </ul>
+
+        <div class="navbar-icon-container navbar-side-container">
+            <div class="navbar-icons cart-btn">
+                <span>
+                    <i class="fas fa-cart-shopping cart-icon"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+            <div class="navbar-icons">
+                <a href="account.html">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+     <!-- cart -->
+     <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Keranjang Saya</h2>
+            <div class="cart-content"></div>
+            <div>
+                <div class="cart-footer">
+                    <div class="cart-line"></div>
+                    <h3>Total : Rp <span class="cart-total">0</span></h3>
+                    <button class="button"><a href="checkout.html">Checkout</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xl detail" id="perawatan-8"></div>
+
+    <footer>
+        <div class="footer-img-container">
+            <img src="Asset/pawxury_logo_white.png" alt="Pawxury Logo">
+        </div>
+        <div class="footer-icons-container">
+            <div class="footer-icons">
+                <a href="https://www.whatsapp.com/" target="_blank">
+                    <img src="Asset/whatsapp.png" alt="Whatsapp Logo">
+                </a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.line.me/" target="_blank">
+                    <img src="Asset/line.png" alt="Line Messenger Logo">
+                </a>
+            </div>
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="Asset/instagram.png" alt="Instagram logo">
+                </a>
+            </div>
+        </div>
+        <p>+62 21 8355 857</p>
+        <div class="footer-line"></div>
+        <p class="copyright">Copyright © 2022 Pawxury. All Rights Reserved</p>
+    </footer>
+    
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

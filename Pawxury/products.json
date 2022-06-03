@@ -1,0 +1,271 @@
+[
+    {
+        "category" : "perawatan",
+        "id": "1",
+        "name": "Basic Grooming",
+        "description": "Paket grooming yang dilakukan oleh orang terpercaya yang sudah diseleksi dan dilatih oleh tim kami untuk semua jenis hewan peliharaan termasuk mandi, pembersihan telinga, gunting kuku, dan blow drying.",
+        "price": 80000,
+        "storeName": "PawStore",
+        "location": "Jakarta Barat",
+        "rating": [4, 5],
+        "review": ["Jasa yang sangat memuaskan.", "Hewan dirawat dan diberikan pelayanan yang sangat baik."],
+        "user": ["Shin Geum Si", "Min Ji Soo"],
+        "fileName": "basic-grooming.html",
+        "image": "Asset/grooming.png"
+    },
+
+    {
+        "category" : "perawatan",
+        "id": "2",
+        "name": "Grooming Anti Kutu",
+        "description": "We come to your house and give convenience to your pet with good price and good standard and quality.",
+        "price": 120000,
+        "storeName": "PawService",
+        "location": "Jakarta Barat",
+        "rating": [4],
+        "review": ["Tepat waktu, mandinya jg bersih. Tidak kasar"],
+        "user": ["Shin Ha Ri"],
+        "fileName": "grooming-anti-kutu.html",
+        "image": "Asset/grooming-anti-kutu.png"
+    },
+
+    {
+        "category" : "perawatan",
+        "id": "3",
+        "name": "Grooming Lengkap",
+        "description": "Pawfriend mu sudah waktunya grooming??? Dont worry we can help you to groom your bestfurriend at your house while you can watch our service and stay at home during this pandemic.",
+        "price": 190000,
+        "storeName": "PawService",
+        "location": "Jakarta Barat",
+        "rating": [5, 4],
+        "review": ["Tepat waktu, mandinya jg bersih", "Sesuai dan Wangi"],
+        "user": ["Lee Tae Ri", "Jin Young So"],
+        "fileName": "grooming-lengkap.html",
+        "image": "Asset/grooming-lengkap.png"
+    },
+
+    {
+        "category" : "perawatan",
+        "id": "4",
+        "name": "Grooming Stylish",
+        "description": "GROOMING ANJING INI TERMASUK : MANDI, GUNTING KUKU, RAPIKAN BULU (DADA, KAKI,DAN SEKITAR PANTAT), BERSIHKAN TELINGA",
+        "price": 160000,
+        "storeName": "PawFriend",
+        "location": "Tangerang",
+        "rating": [5],
+        "review": ["Sangat Bagus"],
+        "user": ["Joo Jun So"],
+        "fileName": "grooming-stylish.html",
+        "image": "Asset/grooming-stylish.png"
+    },
+
+    {
+        "category" : "perawatan",
+        "id": "5",
+        "name": "Cukur Lion",
+        "description": "Jasa Berpengalaman dan bertanggung jawab dalam pengurusan dan pemeliharaan khusus Hewan Anjing .",
+        "price": 150000,
+        "storeName": "AnimalFriends",
+        "location": "Tangerang Selatan",
+        "rating": [4, 3],
+        "review": ["Sangat suka dengan pelayanan dan hasilnya", "Potongannya sangat rapih"],
+        "user": ["Ke Pi Ting", "Be La Lang"],
+        "fileName": "cukur-lion.html",
+        "image": "Asset/cukur-lion.png"
+    },
+
+    {
+        "category" : "perawatan",
+        "id": "6",
+        "name": "Cukur Botak",
+        "description": "Jasa Berpengalaman dan bertanggung jawab dalam pengurusan dan pemeliharaan khusus Hewan Anjing .",
+        "price": 100000,
+        "storeName": "AnimalFriends",
+        "location": "Tangerang Timur",
+        "rating": [5, 5],
+        "review": ["Rambut yang dicukur bersih dan bagus sekali", "memakai jasa di toko ini sangat addicted"],
+        "user": ["Joo Paw Pi", "Shin Hi U"],
+        "fileName": "cukur-botak.html",
+        "image": "Asset/cukur-botak.png"
+    },
+    
+    {
+        "category" : "perawatan",
+        "id": "7",
+        "name": "Cabut Kutu",
+        "description": "Dengan menggunakan metode pengendalian yang terbukti aman dan ampuh (didukung dengan peralatan profesional), kami membersihkan kutu yang ada di hewan peliharaan Anda sampai ke telur dan anak-anaknya.",
+        "price": 250000,
+        "storeName": "AnimalLovers",
+        "location": "Jakarta Timur",
+        "rating": [2, 3],
+        "review": ["Tidak datang tepat waktu, dan kutu yang dibersihkan berantakan. Tidak Rapih", "Pelayanan kurang ramah"],
+        "user": ["Kim So Un", "Jang Krik A"],
+        "fileName": "cabut-kutu.html",
+        "image": "Asset/cabut-kutu.png"
+    },
+
+    {
+        "category" : "perawatan",
+        "id": "8",
+        "name": "Pengobatan Kulit",
+        "description": "Membasmi penyakit kulit dan gatal-gatal yang disebabkan bakteri, jamur dan kuman.",
+        "price": 230000,
+        "storeName": "PawFriends",
+        "location": "Jakarta Timur",
+        "rating": [3],
+        "review": ["Tidak datang tepat waktu"],
+        "user": ["Kim So Un"],
+        "fileName": "pengobatan-kulit.html",
+        "image": "Asset/pengobatan-kulit.png"
+    },
+
+    {
+        "category" : "pelatihan",
+        "id": "9",
+        "name": "Basic Obedience",
+        "description": "4x latihan private dirumah masing2 dgn coach Bing atau coach Visia.",
+        "price": 80000,
+        "storeName": "PawFriends",
+        "location": "Tangerang Barat",
+        "rating": [4],
+        "review": ["Pelatih sangat ramah, hasil sesuai dengan harga"],
+        "user": ["Lee Lam Be"],
+        "fileName": "basic-obedience.html",
+        "image": "Asset/basic-obedience.png"
+    },
+
+    {
+        "category" : "pelatihan",
+        "id": "10",
+        "name": "Problem Correcting",
+        "description": "pelatihan untuk membantu memperbaiki perilaku anjing anjing peliharaan Anda.",
+        "price": 180000,
+        "storeName": "PawLovers",
+        "location": "Tangerang Barat",
+        "rating": [4],
+        "review": ["Pelatih sangat ramah, hasil sesuai dengan harga"],
+        "user": ["Kim Cu Mi"],
+        "fileName": "problem-correcting.html",
+        "image": "Asset/problem-correcting.png"
+    },
+
+    {
+        "category" : "pelatihan",
+        "id": "11",
+        "name": "Competition",
+        "description": "Semua yang dilatih akan memiliki potensi skill yang luar biasa untuk di kembangkan, potensi ini akan sia sia bila tidak di latih dan di kembangkan di FunSmart.",
+        "price": 120000,
+        "storeName": "PawPetShop",
+        "location": "Tangerang Pusat",
+        "rating": [3, 4],
+        "review": ["anjing saya kesakitan, karena pelatihan terlalu banyak", "fasiltas yang diberikan sangat baik, sesuai dengan harganya"],
+        "user": ["Lee Nas Gor", "Kim Nas Gor"],
+        "fileName": "competition.html",
+        "image": "Asset/competition.png"
+    },
+
+    {
+        "category" : "pelatihan",
+        "id": "12",
+        "name": "Leash Walking",
+        "description": "Due to the manual measurement and different measurement methods, please allow1-3mm deviation.Thanks!",
+        "price": 250000,
+        "storeName": "PawPet",
+        "location": "Tangerang Barat",
+        "rating": [4, 5],
+        "review": ["Pelatih sangat ramah, saya sangat suka", "fasiltas yang diberikan sangat baik, saya sangat puas memakai jasa disini"],
+        "user": ["Yoo Bak Mi", "Kim Bak Gor"],
+        "fileName": "leash-walking.html",
+        "image": "Asset/leash-walking.png"
+    },
+
+    {
+        "category" : "penitipan",
+        "id": "13",
+        "name": "HomeCare",
+        "description": "Kesehatan, kenyamanan dan kebahagiaan hewan peliharaan dalam hal ini kucing merupakan hal terpenting yang sangat diutamakan dan diperhatikan para pemilik kucing.­­­",
+        "price": 280000,
+        "storeName": "PawPetShop",
+        "location": "Jakarta Selatan",
+        "rating": [5, 4],
+        "review": ["Sangat puas", "Jasa sangat memuaskan"],
+        "user": ["Lee Na Si", "Yoo Pu Tih"],
+        "fileName": "homecare.html",
+        "image": "Asset/homecare.png"
+    },
+
+    {
+        "category" : "penitipan",
+        "id": "14",
+        "name": "Boarding",
+        "description": "4x latihan private dirumah masing2 dgn coach Bing atau coach Visia.",
+        "price": 250000,
+        "storeName": "PawFriends",
+        "location": "Jawa Barat",
+        "rating": [5, 4],
+        "review": ["Sangat puas, sesuai denagn harganya yang mahal", "Jasa sangat memuaskan dan akan memakai jasa ini lagi selanjutnya"],
+        "user": ["Jin Na Si", "Jin Can Di"],
+        "fileName": "boarding.html",
+        "image": "Asset/boarding.png"
+    },
+
+    {
+        "category" : "kesehatan",
+        "id": "15",
+        "name": "Medical Checkup",
+        "description": "Membuat hewan kesayangan memiliki kesehatan yang baik dan bulu yang lebat mengkilap serta memiliki immune tubuh yang kuat terhadap berbagai penyakit. ",
+        "price": 250000,
+        "storeName": "PawPet",
+        "location": "Jakarta Pusat",
+        "rating": [5],
+        "review": ["Sangat recoomend untuk memakai jasa ditoko ini"],
+        "user": ["Kim Bi Ru"],
+        "fileName": "medical-checkup.html",
+        "image": "Asset/medical-checkup.png"
+    },
+
+    {
+        "category" : "kesehatan",
+        "id": "16",
+        "name": "Vaccine",
+        "description": "Membuat hewan kesayangan memiliki kesehatan yang baik dan bulu yang lebat mengkilap serta memiliki immune tubuh yang kuat terhadap berbagai penyakit. ",
+        "price": 150000,
+        "storeName": "PawFriends",
+        "location": "Jawa Timur",
+        "rating": [4],
+        "review": ["Dokter dan suster sangat ramah dan hewan saya jadi nyaman memakai jasa disini."],
+        "user": ["Yoo Ma Ling"],
+        "fileName": "vaccine.html",
+        "image": "Asset/vaccine.png"
+    },
+
+    {
+        "category" : "kesehatan",
+        "id": "17",
+        "name": "Nutrition Planning",
+        "description": "Services are provided by a registered dietitian nutritionist and include medical nutrition therapy, health coaching, meal planning, consulting, and diabetes e-Learning.",
+        "price": 230000,
+        "storeName": "HealtyPaw",
+        "location": "Jawa Tengah",
+        "rating": [5, 3],
+        "review": ["hewan saya menjadi sangat sehat, tanpa penyakit", "biaya untuk makanan sangat mahal, namun pelayanan sangat bagus"],
+        "user": ["Lee Ram Pok", "Kim Pak Sa"],
+        "fileName": "nutrition-planning.html",
+        "image": "Asset/nutrition-planning.png"
+    },
+
+    {
+        "category" : "kesehatan",
+        "id": "18",
+        "name": "Sterilization",
+        "description": " Pengangkatan testis akan dilakukan terhadap hewan jantan, sedangkan pada hewan betina akan dilakukan pengangkatan ovarium.",
+        "price": 350000,
+        "storeName": "PawSpecialist",
+        "location": "Sumatra Barat",
+        "rating": [5, 4, 5],
+        "review": ["hewan saya menjadi sangat sehat, dan ketika melakukannya tidak sakit", "Pelayanan sangat ramah, dan hasil memuaskan", "Dokter dan suster sangat ramah, hewan menjadi tidak takut"],
+        "user": ["Kim U Dang", "Lee I Kan", "Gu Ri Ta"],
+        "fileName": "sterilization.html",
+        "image": "Asset/sterilization.png"
+    }
+]
